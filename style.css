@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    position: relative;
+}
+
+header .buttons {
+    position: absolute;
+    right: 10px;
+    top: 15px;
+}
+
+header .buttons a {
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+    padding: 10px 20px;
+    background-color: #333;
+    border-radius: 5px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.services h2,
+.gallery h2 {
+    color: #4CAF50;
+}
+
+.promotions h2 {
+    color: #ff0000;
+}
+
+.services ul,
+.promotions ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.services li,
+.promotions li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.gallery img {
+    height: 250px;
+    margin: 10px;
+}
+
+.container-form {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 5px;
+}
+
+form input {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+.discount-timer {
+    font-size: 30px;
+    color: red;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.personal-promotion {
+    border: #ff0000 1px dotted;
+    margin: 50px;
+    padding: 20px;
+    text-align: center;
+}
+
+.buttons button a {
+    text-decoration: none;
+    color: white;
+}
+
+.birthday-congratulations {
+    border: #a200ff 5px double;
+    margin: 0 50px;
+    padding: 20px;
+    text-align: center;
+}
+
+.birthday-congratulations h2 {
+    color: #740bb1;
+}
+
+.birthday-info {
+    border: #45a049 1px dashed;
+    margin: 0 50px;
+    padding: 20px;
+    text-align: center;
+}
